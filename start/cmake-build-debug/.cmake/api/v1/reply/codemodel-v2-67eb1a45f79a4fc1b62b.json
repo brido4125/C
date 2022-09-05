@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "start",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_charint01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_charint01-Debug-860be0ca2d8f72be058d.json",
+					"name" : "chapter3_charint01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_escseq01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_escseq01-Debug-ae3fb500f927c05a95cb.json",
+					"name" : "chapter3_escseq01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_ex1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_ex1-Debug-b6f8967600ab9e89ee41.json",
+					"name" : "chapter3_ex1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_floatprint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_floatprint-Debug-614790b30f3ae983682e.json",
+					"name" : "chapter3_floatprint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_format01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_format01-Debug-8325a72e98e5de5b46ca.json",
+					"name" : "chapter3_format01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_longlongint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_longlongint-Debug-43727aceb26e30c0b039.json",
+					"name" : "chapter3_longlongint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_scanferror01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_scanferror01-Debug-2ca15932d3ca37fd22b8.json",
+					"name" : "chapter3_scanferror01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_scanfint01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_scanfint01-Debug-dbb79f04423a22827d12.json",
+					"name" : "chapter3_scanfint01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3_scanfint02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3_scanfint02-Debug-d115c56c12b0dec5445d.json",
+					"name" : "chapter3_scanfint02",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/hongchangsub/Desktop/study/C/start/cmake-build-debug",
+		"source" : "/Users/hongchangsub/Desktop/study/C/start"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
