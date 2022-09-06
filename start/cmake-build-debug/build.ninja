@@ -52,16 +52,191 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter4_ex03
+
 
 #############################################
-# Utility command for edit_cache
+# Order-only phony target for chapter4_ex03
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
+build cmake_object_order_depends_target_chapter4_ex03: phony || CMakeFiles/chapter4_ex03.dir
 
-build edit_cache: phony CMakeFiles/edit_cache.util
+build CMakeFiles/chapter4_ex03.dir/chapter4/ex03.c.o: C_COMPILER__chapter4_ex03_Debug /Users/hongchangsub/Desktop/study/C/start/chapter4/ex03.c || cmake_object_order_depends_target_chapter4_ex03
+  DEP_FILE = CMakeFiles/chapter4_ex03.dir/chapter4/ex03.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter4_ex03.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter4_ex03.dir/chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter4_ex03
+
+
+#############################################
+# Link the executable chapter4_ex03
+
+build chapter4_ex03: C_EXECUTABLE_LINKER__chapter4_ex03_Debug CMakeFiles/chapter4_ex03.dir/chapter4/ex03.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter4_ex03.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter4_ex03
+  TARGET_PDB = chapter4_ex03.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter4_swap
+
+
+#############################################
+# Order-only phony target for chapter4_swap
+
+build cmake_object_order_depends_target_chapter4_swap: phony || CMakeFiles/chapter4_swap.dir
+
+build CMakeFiles/chapter4_swap.dir/chapter4/swap.c.o: C_COMPILER__chapter4_swap_Debug /Users/hongchangsub/Desktop/study/C/start/chapter4/swap.c || cmake_object_order_depends_target_chapter4_swap
+  DEP_FILE = CMakeFiles/chapter4_swap.dir/chapter4/swap.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter4_swap.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter4_swap.dir/chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter4_swap
+
+
+#############################################
+# Link the executable chapter4_swap
+
+build chapter4_swap: C_EXECUTABLE_LINKER__chapter4_swap_Debug CMakeFiles/chapter4_swap.dir/chapter4/swap.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter4_swap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter4_swap
+  TARGET_PDB = chapter4_swap.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter4_ex02
+
+
+#############################################
+# Order-only phony target for chapter4_ex02
+
+build cmake_object_order_depends_target_chapter4_ex02: phony || CMakeFiles/chapter4_ex02.dir
+
+build CMakeFiles/chapter4_ex02.dir/chapter4/ex02.c.o: C_COMPILER__chapter4_ex02_Debug /Users/hongchangsub/Desktop/study/C/start/chapter4/ex02.c || cmake_object_order_depends_target_chapter4_ex02
+  DEP_FILE = CMakeFiles/chapter4_ex02.dir/chapter4/ex02.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter4_ex02.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter4_ex02.dir/chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter4_ex02
+
+
+#############################################
+# Link the executable chapter4_ex02
+
+build chapter4_ex02: C_EXECUTABLE_LINKER__chapter4_ex02_Debug CMakeFiles/chapter4_ex02.dir/chapter4/ex02.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter4_ex02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter4_ex02
+  TARGET_PDB = chapter4_ex02.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter4_operator03
+
+
+#############################################
+# Order-only phony target for chapter4_operator03
+
+build cmake_object_order_depends_target_chapter4_operator03: phony || CMakeFiles/chapter4_operator03.dir
+
+build CMakeFiles/chapter4_operator03.dir/chapter4/operator03.c.o: C_COMPILER__chapter4_operator03_Debug /Users/hongchangsub/Desktop/study/C/start/chapter4/operator03.c || cmake_object_order_depends_target_chapter4_operator03
+  DEP_FILE = CMakeFiles/chapter4_operator03.dir/chapter4/operator03.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter4_operator03.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter4_operator03.dir/chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter4_operator03
+
+
+#############################################
+# Link the executable chapter4_operator03
+
+build chapter4_operator03: C_EXECUTABLE_LINKER__chapter4_operator03_Debug CMakeFiles/chapter4_operator03.dir/chapter4/operator03.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter4_operator03.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter4_operator03
+  TARGET_PDB = chapter4_operator03.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter4_operator
+
+
+#############################################
+# Order-only phony target for chapter4_operator
+
+build cmake_object_order_depends_target_chapter4_operator: phony || CMakeFiles/chapter4_operator.dir
+
+build CMakeFiles/chapter4_operator.dir/chapter4/operator.c.o: C_COMPILER__chapter4_operator_Debug /Users/hongchangsub/Desktop/study/C/start/chapter4/operator.c || cmake_object_order_depends_target_chapter4_operator
+  DEP_FILE = CMakeFiles/chapter4_operator.dir/chapter4/operator.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter4_operator.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter4_operator.dir/chapter4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter4_operator
+
+
+#############################################
+# Link the executable chapter4_operator
+
+build chapter4_operator: C_EXECUTABLE_LINKER__chapter4_operator_Debug CMakeFiles/chapter4_operator.dir/chapter4/operator.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter4_operator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter4_operator
+  TARGET_PDB = chapter4_operator.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter3_longlongint
+
+
+#############################################
+# Order-only phony target for chapter3_longlongint
+
+build cmake_object_order_depends_target_chapter3_longlongint: phony || CMakeFiles/chapter3_longlongint.dir
+
+build CMakeFiles/chapter3_longlongint.dir/chapter3/longlongint.c.o: C_COMPILER__chapter3_longlongint_Debug /Users/hongchangsub/Desktop/study/C/start/chapter3/longlongint.c || cmake_object_order_depends_target_chapter3_longlongint
+  DEP_FILE = CMakeFiles/chapter3_longlongint.dir/chapter3/longlongint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter3_longlongint.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter3_longlongint.dir/chapter3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter3_longlongint
+
+
+#############################################
+# Link the executable chapter3_longlongint
+
+build chapter3_longlongint: C_EXECUTABLE_LINKER__chapter3_longlongint_Debug CMakeFiles/chapter3_longlongint.dir/chapter3/longlongint.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter3_longlongint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter3_longlongint
+  TARGET_PDB = chapter3_longlongint.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target chapter3_ex1
@@ -124,6 +299,37 @@ build chapter3_scanfint02: C_EXECUTABLE_LINKER__chapter3_scanfint02_Debug CMakeF
   PRE_LINK = :
   TARGET_FILE = chapter3_scanfint02
   TARGET_PDB = chapter3_scanfint02.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter3_scanferror01
+
+
+#############################################
+# Order-only phony target for chapter3_scanferror01
+
+build cmake_object_order_depends_target_chapter3_scanferror01: phony || CMakeFiles/chapter3_scanferror01.dir
+
+build CMakeFiles/chapter3_scanferror01.dir/chapter3/scanferror01.c.o: C_COMPILER__chapter3_scanferror01_Debug /Users/hongchangsub/Desktop/study/C/start/chapter3/scanferror01.c || cmake_object_order_depends_target_chapter3_scanferror01
+  DEP_FILE = CMakeFiles/chapter3_scanferror01.dir/chapter3/scanferror01.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter3_scanferror01.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter3_scanferror01.dir/chapter3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter3_scanferror01
+
+
+#############################################
+# Link the executable chapter3_scanferror01
+
+build chapter3_scanferror01: C_EXECUTABLE_LINKER__chapter3_scanferror01_Debug CMakeFiles/chapter3_scanferror01.dir/chapter3/scanferror01.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter3_scanferror01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter3_scanferror01
+  TARGET_PDB = chapter3_scanferror01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target chapter3_escseq01
@@ -219,35 +425,35 @@ build chapter3_floatprint: C_EXECUTABLE_LINKER__chapter3_floatprint_Debug CMakeF
   TARGET_PDB = chapter3_floatprint.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target chapter3_scanferror01
+# Object build statements for EXECUTABLE target chapter4_ex01
 
 
 #############################################
-# Order-only phony target for chapter3_scanferror01
+# Order-only phony target for chapter4_ex01
 
-build cmake_object_order_depends_target_chapter3_scanferror01: phony || CMakeFiles/chapter3_scanferror01.dir
+build cmake_object_order_depends_target_chapter4_ex01: phony || CMakeFiles/chapter4_ex01.dir
 
-build CMakeFiles/chapter3_scanferror01.dir/chapter3/scanferror01.c.o: C_COMPILER__chapter3_scanferror01_Debug /Users/hongchangsub/Desktop/study/C/start/chapter3/scanferror01.c || cmake_object_order_depends_target_chapter3_scanferror01
-  DEP_FILE = CMakeFiles/chapter3_scanferror01.dir/chapter3/scanferror01.c.o.d
+build CMakeFiles/chapter4_ex01.dir/chapter4/ex01.c.o: C_COMPILER__chapter4_ex01_Debug /Users/hongchangsub/Desktop/study/C/start/chapter4/ex01.c || cmake_object_order_depends_target_chapter4_ex01
+  DEP_FILE = CMakeFiles/chapter4_ex01.dir/chapter4/ex01.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
-  OBJECT_DIR = CMakeFiles/chapter3_scanferror01.dir
-  OBJECT_FILE_DIR = CMakeFiles/chapter3_scanferror01.dir/chapter3
+  OBJECT_DIR = CMakeFiles/chapter4_ex01.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter4_ex01.dir/chapter4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target chapter3_scanferror01
+# Link build statements for EXECUTABLE target chapter4_ex01
 
 
 #############################################
-# Link the executable chapter3_scanferror01
+# Link the executable chapter4_ex01
 
-build chapter3_scanferror01: C_EXECUTABLE_LINKER__chapter3_scanferror01_Debug CMakeFiles/chapter3_scanferror01.dir/chapter3/scanferror01.c.o
+build chapter4_ex01: C_EXECUTABLE_LINKER__chapter4_ex01_Debug CMakeFiles/chapter4_ex01.dir/chapter4/ex01.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/chapter3_scanferror01.dir
+  OBJECT_DIR = CMakeFiles/chapter4_ex01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = chapter3_scanferror01
-  TARGET_PDB = chapter3_scanferror01.dbg
+  TARGET_FILE = chapter4_ex01
+  TARGET_PDB = chapter4_ex01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target chapter3_format01
@@ -280,36 +486,47 @@ build chapter3_format01: C_EXECUTABLE_LINKER__chapter3_format01_Debug CMakeFiles
   TARGET_FILE = chapter3_format01
   TARGET_PDB = chapter3_format01.dbg
 
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 # =============================================================================
-# Object build statements for EXECUTABLE target chapter3_longlongint
+# Object build statements for EXECUTABLE target chapter4_operator04
 
 
 #############################################
-# Order-only phony target for chapter3_longlongint
+# Order-only phony target for chapter4_operator04
 
-build cmake_object_order_depends_target_chapter3_longlongint: phony || CMakeFiles/chapter3_longlongint.dir
+build cmake_object_order_depends_target_chapter4_operator04: phony || CMakeFiles/chapter4_operator04.dir
 
-build CMakeFiles/chapter3_longlongint.dir/chapter3/longlongint.c.o: C_COMPILER__chapter3_longlongint_Debug /Users/hongchangsub/Desktop/study/C/start/chapter3/longlongint.c || cmake_object_order_depends_target_chapter3_longlongint
-  DEP_FILE = CMakeFiles/chapter3_longlongint.dir/chapter3/longlongint.c.o.d
+build CMakeFiles/chapter4_operator04.dir/chapter4/operator04.c.o: C_COMPILER__chapter4_operator04_Debug /Users/hongchangsub/Desktop/study/C/start/chapter4/operator04.c || cmake_object_order_depends_target_chapter4_operator04
+  DEP_FILE = CMakeFiles/chapter4_operator04.dir/chapter4/operator04.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
-  OBJECT_DIR = CMakeFiles/chapter3_longlongint.dir
-  OBJECT_FILE_DIR = CMakeFiles/chapter3_longlongint.dir/chapter3
+  OBJECT_DIR = CMakeFiles/chapter4_operator04.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter4_operator04.dir/chapter4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target chapter3_longlongint
+# Link build statements for EXECUTABLE target chapter4_operator04
 
 
 #############################################
-# Link the executable chapter3_longlongint
+# Link the executable chapter4_operator04
 
-build chapter3_longlongint: C_EXECUTABLE_LINKER__chapter3_longlongint_Debug CMakeFiles/chapter3_longlongint.dir/chapter3/longlongint.c.o
+build chapter4_operator04: C_EXECUTABLE_LINKER__chapter4_operator04_Debug CMakeFiles/chapter4_operator04.dir/chapter4/operator04.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/chapter3_longlongint.dir
+  OBJECT_DIR = CMakeFiles/chapter4_operator04.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = chapter3_longlongint
-  TARGET_PDB = chapter3_longlongint.dbg
+  TARGET_FILE = chapter4_operator04
+  TARGET_PDB = chapter4_operator04.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target chapter3_charint01
@@ -353,7 +570,7 @@ build chapter3_charint01: C_EXECUTABLE_LINKER__chapter3_charint01_Debug CMakeFil
 #############################################
 # Folder: /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug
 
-build all: phony chapter3_ex1 chapter3_scanfint02 chapter3_escseq01 chapter3_scanfint01 chapter3_floatprint chapter3_scanferror01 chapter3_format01 chapter3_longlongint chapter3_charint01
+build all: phony chapter4_ex03 chapter4_swap chapter4_ex02 chapter4_operator03 chapter4_operator chapter3_longlongint chapter3_ex1 chapter3_scanfint02 chapter3_scanferror01 chapter3_escseq01 chapter3_scanfint01 chapter3_floatprint chapter4_ex01 chapter3_format01 chapter4_operator04 chapter3_charint01
 
 # =============================================================================
 # Built-in targets

@@ -23,7 +23,14 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
 					]
 				}
 			],
@@ -46,7 +53,14 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
 					]
 				}
 			],
@@ -113,6 +127,55 @@
 					"id" : "chapter3_scanfint02::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-chapter3_scanfint02-Debug-d115c56c12b0dec5445d.json",
 					"name" : "chapter3_scanfint02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter4_ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter4_ex01-Debug-9be0eb6befde7cf017ee.json",
+					"name" : "chapter4_ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter4_ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter4_ex02-Debug-082514c20f2d8bdf9654.json",
+					"name" : "chapter4_ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter4_ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter4_ex03-Debug-e5af6e8d90fa1dbad2f0.json",
+					"name" : "chapter4_ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter4_operator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter4_operator-Debug-31e7dca7452e16f61241.json",
+					"name" : "chapter4_operator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter4_operator03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter4_operator03-Debug-b1147e62b5034f3832b3.json",
+					"name" : "chapter4_operator03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter4_operator04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter4_operator04-Debug-e5197798b2ca76665dd4.json",
+					"name" : "chapter4_operator04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter4_swap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter4_swap-Debug-e612908203f72c37ff0c.json",
+					"name" : "chapter4_swap",
 					"projectIndex" : 0
 				}
 			]
