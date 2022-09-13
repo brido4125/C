@@ -1,8 +1,0 @@
-/Users/hongchangsub/Desktop/study/C/basic/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/hongchangsub/Desktop/study/C/basic/cmake-build-debug/CMakeFiles/chapter3_getchar01.dir
-/Users/hongchangsub/Desktop/study/C/basic/cmake-build-debug/CMakeFiles/chapter3_intover01.dir
-/Users/hongchangsub/Desktop/study/C/basic/cmake-build-debug/CMakeFiles/chapter3_longlongint.dir
-/Users/hongchangsub/Desktop/study/C/basic/cmake-build-debug/CMakeFiles/chapter3_charint01.dir
-/Users/hongchangsub/Desktop/study/C/basic/cmake-build-debug/CMakeFiles/chapter3_escseq01.dir
-/Users/hongchangsub/Desktop/study/C/basic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hongchangsub/Desktop/study/C/basic/cmake-build-debug/CMakeFiles/chapter3_gets01.dir
