@@ -1,6 +1,6 @@
 CC = gcc
 TARGET = app.out
-OBJS = exec.o circularlist.o
+OBJS = exec.o doublylist.o
 
 all : $(TARGET)
 
@@ -10,8 +10,8 @@ $(TARGET) : $(OBJS)
 exec.o :
 	$(CC) -c exec.c
 
-circularlist.o :
-	$(CC) -c circularlist.c
+doublylist.o :
+	$(CC) -c doublylist.c
 
 clean :
 	rm -f $(OBJS) $(TARGET)

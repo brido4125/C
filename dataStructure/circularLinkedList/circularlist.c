@@ -44,6 +44,7 @@ int addElement(CircularList* pList, int position,CircularListNode element){
                  * */
                 if (pList->currentElementCount == 0) {
                     pList->pLink = pNewNode;
+                    pNewNode->pLink = pNewNode;
                 }else{
                     pLastNode = pList->pLink;//첫번째 헤더부터 마지막 노드까지 탐색
                     while (pLastNode->pLink != pList->pLink) {
