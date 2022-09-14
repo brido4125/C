@@ -25,6 +25,9 @@ int main(int argc, char *argv[])
         removeElement(pList, 0);
         displayDoublyList(pList);
 
+        clearDoublyList(pList);
+        displayDoublyList(pList);
+
         deleteDoublyList(pList);
     }
 

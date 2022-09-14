@@ -26,7 +26,7 @@ int addElement(DoublyList* pList, int position, DoublyListNode element){
     int ret = FALSE;
     DoublyListNode *privNode = NULL, *newNode = NULL;
     if (pList != NULL) {
-        if (position >= 0 && position < pList->currentElementCount) {
+        if (position >= 0 && position <= pList->currentElementCount) {
             newNode = (DoublyListNode *) malloc(sizeof(DoublyListNode));
             if (newNode == NULL) {
                 printf("error in addElement()\n");
