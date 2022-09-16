@@ -1,4 +1,5 @@
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/main.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter4_ex03.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter4_swap.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter4_ex02.dir

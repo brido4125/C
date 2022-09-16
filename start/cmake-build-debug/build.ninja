@@ -53,6 +53,37 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target main
+
+
+#############################################
+# Order-only phony target for main
+
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+
+build CMakeFiles/main.dir/main.c.o: C_COMPILER__main_Debug /Users/hongchangsub/Desktop/study/C/start/main.c || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main
+
+
+#############################################
+# Link the executable main
+
+build main: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main
+  TARGET_PDB = main.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chapter4_ex03
 
 
@@ -570,7 +601,7 @@ build chapter3_charint01: C_EXECUTABLE_LINKER__chapter3_charint01_Debug CMakeFil
 #############################################
 # Folder: /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug
 
-build all: phony chapter4_ex03 chapter4_swap chapter4_ex02 chapter4_operator03 chapter4_operator chapter3_longlongint chapter3_ex1 chapter3_scanfint02 chapter3_scanferror01 chapter3_escseq01 chapter3_scanfint01 chapter3_floatprint chapter4_ex01 chapter3_format01 chapter4_operator04 chapter3_charint01
+build all: phony main chapter4_ex03 chapter4_swap chapter4_ex02 chapter4_operator03 chapter4_operator chapter3_longlongint chapter3_ex1 chapter3_scanfint02 chapter3_scanferror01 chapter3_escseq01 chapter3_scanfint01 chapter3_floatprint chapter4_ex01 chapter3_format01 chapter4_operator04 chapter3_charint01
 
 # =============================================================================
 # Built-in targets
