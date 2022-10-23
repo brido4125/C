@@ -7,7 +7,7 @@ typedef struct Point{
 
 int main() {
     int x = 10;
-    int *y = &x;
+    int* y = &x;
     printf("x의 주소값 : %p\n", &x);
     printf("포인터 y의 주소값 = %p\n", y);
     printf("포인터 y가 가지는 값 = %d\n", *y);

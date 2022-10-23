@@ -31,7 +31,15 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
 					]
 				}
 			],
@@ -62,12 +70,69 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter10_exec1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter10_exec1-Debug-6779d4292c5e1923bced.json",
+					"name" : "chapter10_exec1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_ex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_ex-Debug-19cd2c74bcaa965827a7.json",
+					"name" : "chapter11_ex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_pointer01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_pointer01-Debug-e2a038f4dd41c8881cea.json",
+					"name" : "chapter11_pointer01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_pointer02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_pointer02-Debug-6b128159651222c545ca.json",
+					"name" : "chapter11_pointer02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_prtstring01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_prtstring01-Debug-10e41c3ef7a88db85fd4.json",
+					"name" : "chapter11_prtstring01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_prtstring02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_prtstring02-Debug-0fab4b64829dd80dc03b.json",
+					"name" : "chapter11_prtstring02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_ptrnarray01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_ptrnarray01-Debug-b2d8b4c3841b42f1dc28.json",
+					"name" : "chapter11_ptrnarray01",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "chapter3_charint01::@6890427a1f51a3e7e1df",
@@ -178,6 +243,13 @@
 					"id" : "chapter4_swap::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-chapter4_swap-Debug-e612908203f72c37ff0c.json",
 					"name" : "chapter4_swap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter8_ex1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter8_ex1-Debug-6efd65b16c45b271a3dd.json",
+					"name" : "chapter8_ex1",
 					"projectIndex" : 0
 				},
 				{
