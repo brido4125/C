@@ -41,6 +41,68 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target chapter11_ptrmemcpy01
+
+
+#############################################
+# Order-only phony target for chapter11_ptrmemcpy01
+
+build cmake_object_order_depends_target_chapter11_ptrmemcpy01: phony || CMakeFiles/chapter11_ptrmemcpy01.dir
+
+build CMakeFiles/chapter11_ptrmemcpy01.dir/chapter11/ptrmemcpy01.c.o: C_COMPILER__chapter11_ptrmemcpy01_Debug /Users/hongchangsub/Desktop/study/C/start/chapter11/ptrmemcpy01.c || cmake_object_order_depends_target_chapter11_ptrmemcpy01
+  DEP_FILE = CMakeFiles/chapter11_ptrmemcpy01.dir/chapter11/ptrmemcpy01.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter11_ptrmemcpy01.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter11_ptrmemcpy01.dir/chapter11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter11_ptrmemcpy01
+
+
+#############################################
+# Link the executable chapter11_ptrmemcpy01
+
+build chapter11_ptrmemcpy01: C_EXECUTABLE_LINKER__chapter11_ptrmemcpy01_Debug CMakeFiles/chapter11_ptrmemcpy01.dir/chapter11/ptrmemcpy01.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter11_ptrmemcpy01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter11_ptrmemcpy01
+  TARGET_PDB = chapter11_ptrmemcpy01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter11_ptrmalloc01
+
+
+#############################################
+# Order-only phony target for chapter11_ptrmalloc01
+
+build cmake_object_order_depends_target_chapter11_ptrmalloc01: phony || CMakeFiles/chapter11_ptrmalloc01.dir
+
+build CMakeFiles/chapter11_ptrmalloc01.dir/chapter11/ptrmalloc01.c.o: C_COMPILER__chapter11_ptrmalloc01_Debug /Users/hongchangsub/Desktop/study/C/start/chapter11/ptrmalloc01.c || cmake_object_order_depends_target_chapter11_ptrmalloc01
+  DEP_FILE = CMakeFiles/chapter11_ptrmalloc01.dir/chapter11/ptrmalloc01.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter11_ptrmalloc01.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter11_ptrmalloc01.dir/chapter11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter11_ptrmalloc01
+
+
+#############################################
+# Link the executable chapter11_ptrmalloc01
+
+build chapter11_ptrmalloc01: C_EXECUTABLE_LINKER__chapter11_ptrmalloc01_Debug CMakeFiles/chapter11_ptrmalloc01.dir/chapter11/ptrmalloc01.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter11_ptrmalloc01.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter11_ptrmalloc01
+  TARGET_PDB = chapter11_ptrmalloc01.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chapter11_prtstring01
 
 
@@ -132,6 +194,37 @@ build chapter11_pointer02: C_EXECUTABLE_LINKER__chapter11_pointer02_Debug CMakeF
   PRE_LINK = :
   TARGET_FILE = chapter11_pointer02
   TARGET_PDB = chapter11_pointer02.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter11_ptrmeminit02
+
+
+#############################################
+# Order-only phony target for chapter11_ptrmeminit02
+
+build cmake_object_order_depends_target_chapter11_ptrmeminit02: phony || CMakeFiles/chapter11_ptrmeminit02.dir
+
+build CMakeFiles/chapter11_ptrmeminit02.dir/chapter11/ptrmeminit02.c.o: C_COMPILER__chapter11_ptrmeminit02_Debug /Users/hongchangsub/Desktop/study/C/start/chapter11/ptrmeminit02.c || cmake_object_order_depends_target_chapter11_ptrmeminit02
+  DEP_FILE = CMakeFiles/chapter11_ptrmeminit02.dir/chapter11/ptrmeminit02.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter11_ptrmeminit02.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter11_ptrmeminit02.dir/chapter11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter11_ptrmeminit02
+
+
+#############################################
+# Link the executable chapter11_ptrmeminit02
+
+build chapter11_ptrmeminit02: C_EXECUTABLE_LINKER__chapter11_ptrmeminit02_Debug CMakeFiles/chapter11_ptrmeminit02.dir/chapter11/ptrmeminit02.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter11_ptrmeminit02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter11_ptrmeminit02
+  TARGET_PDB = chapter11_ptrmeminit02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target chapter11_pointer01
@@ -579,6 +672,37 @@ build chapter3_scanfint02: C_EXECUTABLE_LINKER__chapter3_scanfint02_Debug CMakeF
   TARGET_PDB = chapter3_scanfint02.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target chapter11_ptrmeminit
+
+
+#############################################
+# Order-only phony target for chapter11_ptrmeminit
+
+build cmake_object_order_depends_target_chapter11_ptrmeminit: phony || CMakeFiles/chapter11_ptrmeminit.dir
+
+build CMakeFiles/chapter11_ptrmeminit.dir/chapter11/ptrmeminit.c.o: C_COMPILER__chapter11_ptrmeminit_Debug /Users/hongchangsub/Desktop/study/C/start/chapter11/ptrmeminit.c || cmake_object_order_depends_target_chapter11_ptrmeminit
+  DEP_FILE = CMakeFiles/chapter11_ptrmeminit.dir/chapter11/ptrmeminit.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter11_ptrmeminit.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter11_ptrmeminit.dir/chapter11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter11_ptrmeminit
+
+
+#############################################
+# Link the executable chapter11_ptrmeminit
+
+build chapter11_ptrmeminit: C_EXECUTABLE_LINKER__chapter11_ptrmeminit_Debug CMakeFiles/chapter11_ptrmeminit.dir/chapter11/ptrmeminit.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter11_ptrmeminit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter11_ptrmeminit
+  TARGET_PDB = chapter11_ptrmeminit.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chapter3_scanferror01
 
 
@@ -849,7 +973,7 @@ build chapter3_charint01: C_EXECUTABLE_LINKER__chapter3_charint01_Debug CMakeFil
 #############################################
 # Folder: /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug
 
-build all: phony chapter11_prtstring01 chapter11_ptrnarray01 chapter11_pointer02 chapter11_pointer01 main chapter11_prtstring02 chapter3_escseq01 chapter4_ex03 chapter4_swap chapter4_ex02 chapter4_operator03 chapter4_operator chapter3_longlongint chapter4_operator04 chapter3_ex1 chapter10_exec1 chapter3_scanfint02 chapter3_scanferror01 chapter11_ex chapter3_scanfint01 chapter3_floatprint chapter8_ex1 chapter4_ex01 chapter3_format01 chapter3_charint01
+build all: phony chapter11_ptrmemcpy01 chapter11_ptrmalloc01 chapter11_prtstring01 chapter11_ptrnarray01 chapter11_pointer02 chapter11_ptrmeminit02 chapter11_pointer01 main chapter11_prtstring02 chapter3_escseq01 chapter4_ex03 chapter4_swap chapter4_ex02 chapter4_operator03 chapter4_operator chapter3_longlongint chapter4_operator04 chapter3_ex1 chapter10_exec1 chapter3_scanfint02 chapter11_ptrmeminit chapter3_scanferror01 chapter11_ex chapter3_scanfint01 chapter3_floatprint chapter8_ex1 chapter4_ex01 chapter3_format01 chapter3_charint01
 
 # =============================================================================
 # Built-in targets

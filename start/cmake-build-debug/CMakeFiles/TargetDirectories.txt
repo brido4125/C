@@ -1,6 +1,9 @@
+/Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_ptrmemcpy01.dir
+/Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_ptrmalloc01.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_prtstring01.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_ptrnarray01.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_pointer02.dir
+/Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_ptrmeminit02.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_pointer01.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/main.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_prtstring02.dir
@@ -16,6 +19,7 @@
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter3_ex1.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter10_exec1.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter3_scanfint02.dir
+/Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_ptrmeminit.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter3_scanferror01.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_ex.dir

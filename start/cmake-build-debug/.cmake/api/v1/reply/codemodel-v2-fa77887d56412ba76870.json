@@ -39,7 +39,11 @@
 						21,
 						22,
 						23,
-						24
+						24,
+						25,
+						26,
+						27,
+						28
 					]
 				}
 			],
@@ -78,7 +82,11 @@
 						21,
 						22,
 						23,
-						24
+						24,
+						25,
+						26,
+						27,
+						28
 					]
 				}
 			],
@@ -124,6 +132,34 @@
 					"id" : "chapter11_prtstring02::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-chapter11_prtstring02-Debug-0fab4b64829dd80dc03b.json",
 					"name" : "chapter11_prtstring02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_ptrmalloc01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_ptrmalloc01-Debug-9ce6fd524ee2f7099927.json",
+					"name" : "chapter11_ptrmalloc01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_ptrmemcpy01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_ptrmemcpy01-Debug-b6145571697b0e6c5f69.json",
+					"name" : "chapter11_ptrmemcpy01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_ptrmeminit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_ptrmeminit-Debug-f5f1e28a16e00afdbe2f.json",
+					"name" : "chapter11_ptrmeminit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11_ptrmeminit02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11_ptrmeminit02-Debug-4cb99b8b0c27bacdfb43.json",
+					"name" : "chapter11_ptrmeminit02",
 					"projectIndex" : 0
 				},
 				{
