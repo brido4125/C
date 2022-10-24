@@ -36,7 +36,7 @@ BinTreeNode* insertLeftChildNodeBT(BinTreeNode* pParentNode, BinTreeNode element
             pParentNode->pLeftChild = (BinTreeNode *) malloc(sizeof(BinTreeNode));
             if (pParentNode->pLeftChild != NULL) {
                 //pParentNode->pLeftChild = &element;
-                *(pParentNode->pLeftChild) = element;
+                *pParentNode->pLeftChild = element;
                 pParentNode->pLeftChild->pLeftChild = NULL;
                 pParentNode->pLeftChild->pRightChild = NULL;
                 pReturn = pParentNode->pLeftChild;
@@ -47,7 +47,7 @@ BinTreeNode* insertLeftChildNodeBT(BinTreeNode* pParentNode, BinTreeNode element
     } else {
         printf("error by already exists, insertLeftChildNodeBT()\n");
     }
-    printf("Data = %c added \n", element.data);
+    //printf("Data = %c added \n", element.data);
     return pReturn;
 }
 
@@ -59,7 +59,7 @@ BinTreeNode* insertRightChildNodeBT(BinTreeNode* pParentNode, BinTreeNode elemen
             pParentNode->pRightChild = (BinTreeNode *) malloc(sizeof(BinTreeNode));
             if (pParentNode->pRightChild != NULL) {
                 //pParentNode->pRightChild = &element;
-                *(pParentNode->pRightChild) = element;
+                *pParentNode->pRightChild = element;
                 pParentNode->pRightChild->pLeftChild = NULL;
                 pParentNode->pRightChild->pRightChild = NULL;
                 pReturn = pParentNode->pRightChild;
@@ -70,7 +70,7 @@ BinTreeNode* insertRightChildNodeBT(BinTreeNode* pParentNode, BinTreeNode elemen
     } else {
         printf("error by already exists, insertLeftChildNodeBT()\n");
     }
-    printf("Data = %c added \n", element.data);
+    //printf("Data = %c added \n", element.data);
     return pReturn;
 }
 
