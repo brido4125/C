@@ -41,6 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target chapter13_structfunc02
+
+
+#############################################
+# Order-only phony target for chapter13_structfunc02
+
+build cmake_object_order_depends_target_chapter13_structfunc02: phony || CMakeFiles/chapter13_structfunc02.dir
+
+build CMakeFiles/chapter13_structfunc02.dir/chapter13/structfunc02.c.o: C_COMPILER__chapter13_structfunc02_Debug /Users/hongchangsub/Desktop/study/C/start/chapter13/structfunc02.c || cmake_object_order_depends_target_chapter13_structfunc02
+  DEP_FILE = CMakeFiles/chapter13_structfunc02.dir/chapter13/structfunc02.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/chapter13_structfunc02.dir
+  OBJECT_FILE_DIR = CMakeFiles/chapter13_structfunc02.dir/chapter13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter13_structfunc02
+
+
+#############################################
+# Link the executable chapter13_structfunc02
+
+build chapter13_structfunc02: C_EXECUTABLE_LINKER__chapter13_structfunc02_Debug CMakeFiles/chapter13_structfunc02.dir/chapter13/structfunc02.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/chapter13_structfunc02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter13_structfunc02
+  TARGET_PDB = chapter13_structfunc02.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chapter11_ptrmemcpy01
 
 
@@ -973,7 +1004,7 @@ build chapter3_charint01: C_EXECUTABLE_LINKER__chapter3_charint01_Debug CMakeFil
 #############################################
 # Folder: /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug
 
-build all: phony chapter11_ptrmemcpy01 chapter11_ptrmalloc01 chapter11_prtstring01 chapter11_ptrnarray01 chapter11_pointer02 chapter11_ptrmeminit02 chapter11_pointer01 main chapter11_prtstring02 chapter3_escseq01 chapter4_ex03 chapter4_swap chapter4_ex02 chapter4_operator03 chapter4_operator chapter3_longlongint chapter4_operator04 chapter3_ex1 chapter10_exec1 chapter3_scanfint02 chapter11_ptrmeminit chapter3_scanferror01 chapter11_ex chapter3_scanfint01 chapter3_floatprint chapter8_ex1 chapter4_ex01 chapter3_format01 chapter3_charint01
+build all: phony chapter13_structfunc02 chapter11_ptrmemcpy01 chapter11_ptrmalloc01 chapter11_prtstring01 chapter11_ptrnarray01 chapter11_pointer02 chapter11_ptrmeminit02 chapter11_pointer01 main chapter11_prtstring02 chapter3_escseq01 chapter4_ex03 chapter4_swap chapter4_ex02 chapter4_operator03 chapter4_operator chapter3_longlongint chapter4_operator04 chapter3_ex1 chapter10_exec1 chapter3_scanfint02 chapter11_ptrmeminit chapter3_scanferror01 chapter11_ex chapter3_scanfint01 chapter3_floatprint chapter8_ex1 chapter4_ex01 chapter3_format01 chapter3_charint01
 
 # =============================================================================
 # Built-in targets

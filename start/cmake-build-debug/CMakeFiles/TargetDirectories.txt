@@ -1,3 +1,4 @@
+/Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter13_structfunc02.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_ptrmemcpy01.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_ptrmalloc01.dir
 /Users/hongchangsub/Desktop/study/C/start/cmake-build-debug/CMakeFiles/chapter11_prtstring01.dir

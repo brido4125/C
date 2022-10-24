@@ -18,5 +18,9 @@ int main() {
     point *P = &p1;
     printf("포인터의 P의 주소 = %p\n", P);
     printf("포인터 P의 X값 = %d, y값 = %d\n", P->x,P->y);
+
+    point* test = &p1;
+    printf("test : %p \n", test);
+    printf("%d",test->y);
     return 0;
 }

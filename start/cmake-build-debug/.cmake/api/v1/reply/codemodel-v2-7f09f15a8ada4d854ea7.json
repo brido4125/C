@@ -43,7 +43,8 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29
 					]
 				}
 			],
@@ -86,7 +87,8 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29
 					]
 				}
 			],
@@ -167,6 +169,13 @@
 					"id" : "chapter11_ptrnarray01::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-chapter11_ptrnarray01-Debug-b2d8b4c3841b42f1dc28.json",
 					"name" : "chapter11_ptrnarray01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter13_structfunc02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter13_structfunc02-Debug-055e969efee2dd64a209.json",
+					"name" : "chapter13_structfunc02",
 					"projectIndex" : 0
 				},
 				{
